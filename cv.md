@@ -11,7 +11,7 @@ Telegram: [https://t.me/zoldief](https://t.me/zoldief)
 
 ## About me  
 
-My goal is to take a teamlead position in one of the leading IT companies in the country as soon as possible. To achieve my purpose, I try to do my best.
+My purpose is to take a teamlead position in one of the leading IT companies in the country as soon as possible. To achieve my purpose, I try to do my best.
 
 -----  
 
@@ -27,4 +27,24 @@ My goal is to take a teamlead position in one of the leading IT companies in the
 * C#  
 
 ------  
+
+## Code examples  
+
+```javascript
+   function persistence(num) {
+    const reducer = (a, b) => a * b;
+    num = num.toString();
+    num = num.split('');
+    let k = 0;
+    while (num.length !== 1) {
+        num = num.reduce(reducer);
+        num = num.toString();
+        k++;
+        num = num.split('');
+    }
+    return k
+}
+```
+
+-----  
 
