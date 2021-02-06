@@ -48,3 +48,19 @@ My purpose is to take a teamlead position in one of the leading IT companies in 
 
 -----  
 
+## Projects  
+
+[https://github.com/zoldief/SUBD-samsung](https://github.com/zoldief/SUBD-samsung)  
+
+----  
+
+## Education  
+
+
+Information technology software, BSCLI.  
+
+----  
+
+## English level  
+
+A2(Pre-intermediate)  
