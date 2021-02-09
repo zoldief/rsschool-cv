@@ -50,7 +50,28 @@
             </div>
         </div>
     </section>
-
+    <section class="section">
+        <div class="container">
+            <div class="section__inner">
+                <h1 class="title">Code example</h1>
+                <pre class="code">
+    function persistence(num) {
+        const reducer = (a, b) => a * b;
+        num = num.toString();
+        num = num.split('');
+        let k = 0;
+        while (num.length !== 1) {
+            num = num.reduce(reducer);
+            num = num.toString();
+            k++;
+            num = num.split('');
+        }
+        return k
+    }
+                </pre>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
