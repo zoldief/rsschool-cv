@@ -24,58 +24,67 @@
     </header>
     <main class="main">
         <div class="container">
-            <section class="section">
-                <h1 class="title">About me</h1>
-                <p class="about">My purpose is to take a teamlead position in one of the leading IT companies in
-                    the
-                    country as soon as possible. To
-                    achieve my purpose, I try to do my best.</p>
-            </section>
-            <section class="section">
-                <h1 class="title">Skills</h1>
-                <ul class="skills">
-                    <li class="skill__item">HTML5</li>
-                    <li class="skill__item">CSS3</li>
-                    <li class="skill__item">SASS</li>
-                    <li class="skill__item">JavaScript</li>
-                    <li class="skill__item">SQL</li>
-                    <li class="skill__item">PHP</li>
-                    <li class="skill__item">Git</li>
-                    <li class="skill__item">C#</li>
-                </ul>
-            </section>
-            <section class="section">
-                <h1 class="title">Code example</h1>
-                <pre class="code">
-    function persistence(num) {
-        const reducer = (a, b) => a * b;
-        num = num.toString();
-        num = num.split('');
-        let k = 0;
-        while (num.length !== 1) {
-            num = num.reduce(reducer);
+            <div class="main__inner">
+                <section class="section">
+                    <h1 class="title">About me</h1>
+                    <p class="about">My purpose is to take a teamlead position in one of the leading IT companies in
+                        the
+                        country as soon as possible. To
+                        achieve my purpose, I try to do my best.</p>
+                </section>
+                <section class="section">
+                    <h1 class="title">Skills</h1>
+                    <ul class="skills">
+                        <li class="skill__item">HTML5</li>
+                        <li class="skill__item">CSS3</li>
+                        <li class="skill__item">SASS</li>
+                        <li class="skill__item">JavaScript</li>
+                        <li class="skill__item">SQL</li>
+                        <li class="skill__item">PHP</li>
+                        <li class="skill__item">Git</li>
+                        <li class="skill__item">C#</li>
+                    </ul>
+                </section>
+                <section class="section">
+                    <h1 class="title">Code example</h1>
+                    <pre class="code">
+        function persistence(num) {
+            const reducer = (a, b) => a * b;
             num = num.toString();
-            k++;
             num = num.split('');
+            let k = 0;
+            while (num.length !== 1) {
+                num = num.reduce(reducer);
+                num = num.toString();
+                k++;
+                num = num.split('');
+            }
+            return k
         }
-        return k
-    }
-                            </pre>
-            </section>
-            <section class="section">
-                <h1 class="title">Projects</h1>
-                <a href="https://github.com/zoldief/SUBD-samsung" class="project">Online store "Samsung"</a>
-            </section>
-            <section class="section">
-                <h1 class="title">Education</h1>
-                <a href="https://bgklp.by/" class="education">Information technology software, BSCLI.</a>
-            </section>
-            <section class="section">
-                <h1 class="title">English level</h1>
-                <h4 class="english">A2(Pre-intermediate)</h4>
-            </section>
+                                </pre>
+                </section>
+                <section class="section">
+                    <h1 class="title">Projects</h1>
+                    <a href="https://github.com/zoldief/SUBD-samsung" class="project">Online store "Samsung"</a>
+                </section>
+                <section class="section">
+                    <h1 class="title">Education</h1>
+                    <a href="https://bgklp.by/" class="education">Information technology software, BSCLI.</a>
+                </section>
+                <section class="section">
+                    <h1 class="title">English level</h1>
+                    <h4 class="english">A2(Pre-intermediate)</h4>
+                </section>
+            </div>
         </div>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <p>Designed by myself</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
