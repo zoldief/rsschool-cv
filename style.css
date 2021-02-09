@@ -68,16 +68,30 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    font-size: 1.6em;
 }
 
 .title {
-    font-size: 4em;
+    font-size: 2.4em;
     margin-bottom: 20px;
 }
 
 .about {
-    font-size: 1.6em;
     font-style: italic;
     color: #333;
     line-height: 2.4em;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    padding-left: 20px;
+}
+
+.code {
+    padding: 10px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 10px;
 }
