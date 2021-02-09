@@ -1,3 +1,3 @@
 https://zoldief.github.io/rsschool-cv/cv
 
-https://your-github-account.github.io/rsschool-cv/
+https://zolidef.github.io/rsschool-cv/
