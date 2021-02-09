@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #333;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+a, a:active, a:checked {
+    color: #000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__inner {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #555;
+}
+
+.header__title {
+    font-size: 3em;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
+
+.contacts {
+    display: flex;
+    padding: 10px 0 0 0;
+    width: 120px;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+.main {
+    padding: 50px 10px 30px 10px;
+}
+
+.main__inner{
+    padding: 0 30px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 10px;
+}
+
+.section {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-size: 1.6em;
+}
+
+.title {
+    font-size: 2.4em;
+    margin-bottom: 20px;
+}
+
+.about {
+    font-style: italic;
+    color: #333;
+    line-height: 2.4em;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    padding-left: 20px;
+}
+
+.code {
+    padding: 10px;
+}
+
+.project, .project:active, .project:checked {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    width: 200px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgba(255,255,255,.7);
+    transition: .2s linear;
+}
+
+.project:hover {
+    background-color: rgba(255,255,255,1);
+}
+
+.footer__inner {
+    background-color: rgba(255,255,255,.7);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
